@@ -20,3 +20,8 @@ function total() {
     counter = 0
 }
 
+function reset() {
+    countNum.textContent = 0
+    counter = 0
+    sum = 0
+}
