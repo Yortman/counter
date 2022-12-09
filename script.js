@@ -15,13 +15,14 @@ function decrement() {
 
 function total() {                                      
     sum += counter
-    totalNum.textContent = "Total of entries: " + sum
+    totalNum.textContent = sum
     countNum.textContent = 0
     counter = 0
 }
 
 function reset() {
     countNum.textContent = 0
+    totalNum.textContent = 0
     counter = 0
     sum = 0
 }

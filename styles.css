@@ -36,10 +36,32 @@ h1 {
     border: rgb(16, 16, 88) solid 1px;
 }
 
+p.count,
+p.total {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(16, 16, 88);
+    border: 1px solid rgb(16, 16, 88);
+    display: inline-block;
+    color: white;
+    border-radius: 8px;
+}
+
+p.total {
+    width: 75px;
+}
+
+p.count {
+  width: 75px;
+  margin-top: 10px;
+  margin-left: 78px;
+  margin-right: 17px;
+
+}
+
 h2 {
     font-family: 'Roboto Mono', sans-serif;
     font-size: 2.5rem;
-    margin-left: 50%;
+    margin-left: 154px;
     margin-top: 15px;
     margin-bottom: 20px;
 }
@@ -51,8 +73,18 @@ h2#count-num {
     box-shadow: 0 0 2px 2px rgb(187, 187, 187);
 }
 
+h2#total-num {
+  background-color: white;
+  width: 75px;
+  border-radius: 8px;
+  box-shadow: 0 0 2px 2px rgb(187, 187, 187);
+  margin-top: -73px;
+  margin-left: 250px;
+}
+
 button#increment-btn {
-    background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.603);
+  box-shadow: 0px 0px 2px 2px white;
     width: 40px;
     height: 40px;
     border: none;
@@ -74,7 +106,8 @@ button#increment-btn {
 
 
 button#decrement-btn {
-    background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.603);
+    box-shadow: 0px 0px 2px 2px white;
     width: 40px;
     height: 40px;
     border: none;
@@ -94,6 +127,38 @@ button#decrement-btn {
     margin-top: -5px;
   }
 
-  
+  span.total {
+    position: relative;
+    top: 80px;
+    left: 24px;
+  }
 
+  button#total-btn {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    padding: 3px 15px 3px 15px;
+    border-radius: 20px;
+    background-color: rgb(255, 192, 18);
+    border: none;
+    font-weight: bold;
+    color: rgb(16, 16, 88);
+    box-shadow: 0 0 2px 2px rgba(255, 192, 18, 0.651);
+  }
+
+  span.reset {
+    position: relative;
+    top: 80px;
+    right: -43px;
+  }
   
+  button#reset-btn {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    padding: 3px 10px 3px 10px;
+    border-radius: 20px;
+    background-color: rgb(18, 148, 255);
+    border: none;
+    font-weight: bold;
+    color: rgb(16, 16, 88);
+    box-shadow: 0 0 2px 2px rgba(18, 148, 255, 0.603);
+  }

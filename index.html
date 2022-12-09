@@ -10,8 +10,17 @@
     <title>Amazing Little Counter</title>
 </head>
 <body>
-    <h1>People Entered:</h1>
-    <h2 id="count-num">0</h2>
+    <h1>People Entered</h1>
+    <div class="description">
+        <p class="count">Counter</p>
+        <p class="total">Total</p>
+    </div>
+    <div class="count-num">
+        <h2 id="count-num">0</h2>
+    </div>
+    <div class="total-num">
+        <h2 id="total-num">0</h2>
+    </div>
         <div class="buttons">
             <button id="increment-btn" class="increment" onclick="increment()">
                 <i class="arrow-up"></i>
@@ -20,12 +29,12 @@
                 <i class="arrow-down"></i>
             </button>
         </div>
-        <div><button id="total-btn" onclick="total()">Total</button>
-        </div>
-        <div><button id="reset-btn" onclick="reset()">Reset</button>
-        </div>
-        <div><p id="total-num">Total of entries: </p>
-        </div>
+        <span class="total"><button id="total-btn" onclick="total()">Total</button>
+        </span>
+        <span class="reset"><button id="reset-btn" onclick="reset()">Reset</button>
+        </span>
+        <!-- <div><p id="total-num">Total of entries: </p>
+        </div> -->
     <script src="script.js"></script>
 </body>
 </html>
