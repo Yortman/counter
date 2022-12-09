@@ -10,19 +10,31 @@
 
 html {
     width: 100%;
-    height: 50%;
+    height: 60%;
+    background-color: rgb(85, 97, 97);
+}
+
+span.pic {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background-size: 125%;
 }
 
 body {
-    background-color: rgb(85, 97, 97);
-    background: url("../images/kh.png");
-    background-size: cover;
+    /* background-color: rgb(85, 97, 97); */
+    /* background: url("images/kh.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
+    background-position:  center; */
+    /* position: absolute; */
     text-align: center;
     max-width: 400px;
     min-width: 250px;
     margin: 0 0 0 -60px;
+    min-height: 489.5px;
+
 }
 
 h1 {
