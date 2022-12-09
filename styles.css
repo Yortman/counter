@@ -15,7 +15,7 @@ html {
 
 body {
     background-color: azure;
-    background-image: url(/images/people-counting.jpg);
+    background-image: url("/images/people-counting.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -91,6 +91,7 @@ button#increment-btn {
     border-radius: 50%;
     position: absolute;
     margin: 0 10px 30px -30px;
+    touch-action: manipulation;
   }
 
 .arrow-up {
@@ -114,6 +115,7 @@ button#decrement-btn {
     border-radius: 50%;
     position: absolute;
     margin: 0 0 30px 63px;
+    touch-action: manipulation;
   }
 
 .arrow-down {
@@ -143,6 +145,7 @@ button#decrement-btn {
     font-weight: bold;
     color: rgb(16, 16, 88);
     box-shadow: 0 0 2px 2px rgba(255, 192, 18, 0.651);
+    touch-action: manipulation;
   }
 
   span.reset {
@@ -161,4 +164,5 @@ button#decrement-btn {
     font-weight: bold;
     color: rgb(16, 16, 88);
     box-shadow: 0 0 2px 2px rgba(18, 148, 255, 0.603);
+    touch-action: manipulation;
   }
