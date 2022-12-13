@@ -14,26 +14,18 @@ html {
     background-color: rgb(85, 97, 97);
 }
 
-/* span.pic {
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  background-size: 125%;
-} */
-
 body {
     /* background-color: rgb(85, 97, 97); */
-    /* background: url("images/kh.png");
+    background-image: url("images/kh.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:  center; */
+    background-position:  center;
     position: relative;
     text-align: center;
     max-width: 450px;
     min-width: 250px;
     /* margin: 0 0 0 -40px; */
-    min-height: 600px;
+    height: 100vh;
 
 }
 
@@ -160,10 +152,10 @@ button#decrement-btn {
     /* margin-top: -5px; */
   }
 
-  span.total {
-    position: absolute;
-    bottom: 30px;
-    left: 105px;
+  div.total-reset {
+    display: block;
+    margin-top: 350px;
+    position: relative;
   }
 
   button#total-btn {
@@ -180,13 +172,7 @@ button#decrement-btn {
     margin-top: 25px;
   }
 
-  span.reset {
-    position: absolute;
-    bottom: 30px;
-    right: 105px;
-  }
-  
-  button#reset-btn {
+    button#reset-btn {
     font-family: 'Raleway', sans-serif;
     font-size: 1.2rem;
     padding: 3px 10px 3px 10px;
@@ -198,4 +184,5 @@ button#decrement-btn {
     box-shadow: 0 0 2px 2px rgba(18, 148, 255, 0.603);
     touch-action: manipulation;
     margin-top: 25px;
+    margin-left: 78px;
   }
